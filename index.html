@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./calculator.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div id="module">
+            <div>Modules</div>
+            <div class="mod">Analyse3</div>
+            <div class="mod">Archi</div>
+            <div class="mod">Elect</div>
+            <div class="mod">Proba</div>
+            <div class="mod">Sfsd</div>
+            <div class="mod">Algebre3</div>
+            <div class="mod">Economie</div>
+            <div class="mod">English</div>
+            <div>Result</div>
+        </div>
+        <div id="coef">
+            <div class="special">Coeff</div>
+            <div ><input class="coef" type="number" value="5" ></div>
+            <div ><input class="coef" type="number" value="4" ></div>
+            <div ><input class="coef" type="number" value="4" ></div>
+            <div ><input class="coef" type="number" value="4" ></div>
+            <div ><input class="coef" type="number" value="4" ></div>
+            <div ><input class="coef" type="number" value="3" ></div>
+            <div ><input class="coef" type="number" value="2" ></div>
+            <div ><input class="coef" type="number" value="2" ></div>
+            <div><input id="coef_result" readonly type="number"></div> 
+        </div>
+        <div id="emd1">
+            <div class="special">EMD1</div>
+            <div><input class="emd1" type="number" ></div>
+            <div><input class="emd1" type="number" ></div>
+            <div><input class="emd1" type="number" ></div>
+            <div><input class="emd1" type="number" ></div>
+            <div><input class="emd1" type="number" ></div>
+            <div><input class="emd1" type="number" ></div>
+            <div><input class="emd1" readonly type="number" placeholder="/" ></div>
+            <div><input class="emd1" type="number" ></div>
+            <div><input id="emd1_result" readonly type="number"></div> 
+
+        </div>
+        <div id="emd2">
+            <div>EMD2</div>
+            <div><input class="emd2" type="number" ></div> 
+            <div><input class="emd2" type="number" ></div> 
+            <div><input class="emd2" type="number" ></div> 
+            <div><input class="emd2" type="number" ></div> 
+            <div><input class="emd2" type="number" ></div> 
+            <div><input class="emd2" type="number" ></div> 
+            <div><input class="emd2" type="number" ></div> 
+            <div><input class="emd2" type="number" ></div> 
+            <div><input id="emd2_result" readonly type="number"></div> 
+        </div>
+        <div id="td">
+            <div>TD</div>
+            <div><input class="td" type="number" ></div>
+            <div><input class="td" type="number" ></div>
+            <div><input class="td" type="number" ></div>
+            <div><input class="td" type="number" ></div>
+            <div><input class="td" type="number" ></div>
+            <div><input class="td" type="number" ></div>
+            <div><input class="td" type="number" ></div>
+            <div><input class="td" type="number" ></div>
+            <div><input id="td_result" readonly type="number"></div> 
+        </div>
+        <div id="moy">
+            <div>Moy</div>
+            <div><input readonly class="moy" type="number" ></div>
+            <div><input readonly class="moy" type="number" ></div>
+            <div><input readonly class="moy" type="number" ></div>
+            <div><input readonly class="moy" type="number" ></div>
+            <div><input readonly class="moy" type="number" ></div>
+            <div><input readonly class="moy" type="number" ></div>
+            <div><input readonly class="moy" type="number" ></div>
+            <div><input readonly class="moy" type="number" ></div>
+            <div><input id="moy_result" readonly type="number"></div> 
+        </div>
+    </div>
+    <div id="result">
+        <div id="average">Average </div>
+        <div id="submit">Calculate</div>
+    </div>
+    <script src="./js.js"></script>
+</body>
+</html>
